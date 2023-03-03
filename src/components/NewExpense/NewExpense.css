@@ -1,0 +1,8 @@
+.newExpense {
+    height: 35vh;
+    background-color: #525252;
+    border: 1px solid gray;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius: 20px;
+}

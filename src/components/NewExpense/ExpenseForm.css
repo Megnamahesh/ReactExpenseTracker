@@ -1,0 +1,33 @@
+.expenseFormContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:1rem;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    padding-top:1.5rem;
+    text-align: left;
+}
+.expenseInputs label{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.expenseInputs input {
+    width: 40rem !important;
+    padding: 0.5rem !important;
+    border-radius:6px !important;
+    border: 1px solid #ccc;
+}
+.expenseInputsButtons {
+    width:10rem;
+    height:3rem;
+    border-radius: .3rem;
+    text-align: center;
+    padding-top: .6rem;
+    margin-right: 2rem;
+    background-color: #393939;
+    float:right;
+    color:white;
+    cursor:pointer
+}
